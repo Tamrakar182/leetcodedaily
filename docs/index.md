@@ -1,11 +1,18 @@
-# Obsidian Notes
+# LeetCode 75 Qs
 
-Publish your public notes with MkDocs
+These are my notes for the ["Ace Coding Interview with 75 Qs"](https://leetcode.com/studyplan/leetcode-75/?fbclid=IwAR2kMaXgEN6U9xL2uorN1S6WynOcS4QvVCf0_uVm1L1lSpUAnb5qVFu_gVo). I will be using Obsidian to take notes and publish them with MkDocs. 
 
-## Hello World!
+Started from the 1st of July to Present
+- [[Day 1 Merge Strings Alternately]]
 
-The `index.md` in the `/docs` folder is the homepage you see here.
+- [[Day 2 Greatest Common Divisor of Strings]]
 
-The folders in `/docs` appear as the main sections on the navigation bar.
+- [[Day 3 Kids with the Greates Number of Candies]]
 
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+- [[Day 4 Can Place Flowers]]
+
+- [[Day 5 Reverse Vowels of a String]]
+
+- [[Day 6 Reverse Words in a String]]
+
+- [[Day 7 Product of Array Except Self]]
