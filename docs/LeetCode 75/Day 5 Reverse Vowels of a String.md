@@ -1,4 +1,6 @@
-#twopointers #string 
+# 345. Reverse Vowels of a String
+
+Tags: #twopointers #string #easy
 
 ### Problem Statement
 Given a string `s`, reverse only all the vowels in the string and return it.
@@ -19,8 +21,6 @@ class Solution:
         j = len(s)-1
         vowel = "aeiouAEIOU"
         s = list(s)
-
-
         while i<j:
             if s[i] in vowel and s[j] in vowel:
                 s[i], s[j] = s[j], s[i]
@@ -36,6 +36,7 @@ class Solution:
         s ="".join(map(str,s))
         return s
 ```
-
+In my approach, first I took a ``vowel`` string to check against every list item. In a while loop, I checked whether the current element and the last element was in the vowels list, upon which if the condition was True, I swapped them and incremented ``i`` and decremented ``j``. For the other condition, if we only found vowel match in the current element then, we increment ``i`` otherwise if we only found in the last element then, we decrement ``j``. Finally, if none of those conditions match, then we increment both ``i`` and ``j`` to reach over to the next element. Finally, we join the array of character and return it as a string.
 
 ### Personal Thoughts
+This was another wonderful solution presented by one of my friends which was implemented. Collaborative problem solving is very effective and can help to solve problem effectively by brainstroming.

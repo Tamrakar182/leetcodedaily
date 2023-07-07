@@ -1,4 +1,6 @@
-#array #greedy
+# 605. Can Place Flowers
+
+Tags: #array #greedy #easy
 
 ### Problem Statement
 You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in **adjacent** plots.
@@ -25,7 +27,8 @@ def func(array, n):
         return True
     return False
 ```
-
+In my approach, I just made a loop so that it checked whether the current element, the next element and the next-next element is ``one`` upon which we iterate over to the next element otherwise, we increment the ``count`` and iterate over to the next-next element since, the next element has already been checked. After the loop, if the counter variable is equals to the given number then, we return ``True`` otherwise ``False``
 
 ### Personal Thoughts
+Another Trivial question. The initial concept was quite interesting to figure out and luckily the implementation worked once we (Me and My Friend) thought about the problem properly.
 

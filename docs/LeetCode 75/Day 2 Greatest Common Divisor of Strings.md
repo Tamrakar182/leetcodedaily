@@ -1,4 +1,6 @@
-#Math #string 
+# 1071. Greatest Common Divisor of Strings
+
+Tags: #Math #string #easy
 
 ### Problem Statement
 For two strings `s` and `t`, we say "`t` divides `s`" if and only if `s = t + ... + t` (i.e., `t` is concatenated with itself one or more times).
