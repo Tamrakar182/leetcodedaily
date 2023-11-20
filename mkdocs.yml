@@ -1,14 +1,32 @@
 site_name: LeetCode Daily
+site_description: LeetCode Daily Challenge Documentation built with MkDocs.
+site_author: Manjul Tamrakar
+site_url: https://tamrakar182.github.io/leetcodedaily/
 
 theme:
     name: 'material'
-    palette:
+    features:
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.top
 
+    font:
+      code: Fira Code
+      text: Inconsolata
+
+    palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: rgb(139, 174, 47)
-      accent: rgb(255, 45, 123)
+      # primary: rgb(139, 174, 47)
+      primary: deep purple
+      # accent: rgb(255, 45, 123)
+      accent: deep purple
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -16,8 +34,10 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: rgb(139, 174, 47)
-      accent: rgb(255, 45, 123)
+      # primary: rgb(139, 174, 47)
+      primary: deep purple
+      # accent: rgb(255, 45, 123)
+      accent: deep purple
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
