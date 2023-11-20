@@ -21,3 +21,15 @@ These are my notes for the ["Ace Coding Interview with 75 Qs"](https://leetcode.
 - [[Day 6 Reverse Words in a String]]
 
 - [[Day 7 Product of Array Except Self]]
+
+- [[Day 8 Increasing Triplet Subsequence]]
+
+- [[Day 9 String Compression]]
+
+- [[Day 10 Move Zeroes]]
+
+- [[Day 11 Is Subsequence]]
+
+- [[Day 12 Container With Most Water]]
+
+- [[Day 13 Max Number of K-Sum Pairs]]
