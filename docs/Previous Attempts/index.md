@@ -1,4 +1,4 @@
-# LeetCode Daily Challenge
+# LeetCode Daily Challenge Attempt 1 (Failed)
 
 ## Introduction
 ~~This is my attempt to do the LeetCode Daily Challenge. I will be using Obsidian to take notes and publish them with MkDocs.
