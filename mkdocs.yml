@@ -16,7 +16,6 @@ theme:
 
     font:
       code: Fira Code
-      text: Inconsolata
 
     palette:
     # Light mode
