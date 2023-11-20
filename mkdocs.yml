@@ -86,6 +86,9 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks 
+  - social
+    cards_layout_options:
+      font_family: Noto Sans SC
 
 extra_javascript:
   - javascripts/mathjax.js
