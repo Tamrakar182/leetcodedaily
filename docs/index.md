@@ -5,3 +5,4 @@ This is my second attempt to do the LeetCode Daily Challenge. I will be using Ob
 
 Check my previous Attempt [[Previous Attempts/index|here]]
 
+Update 23
